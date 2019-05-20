@@ -1,0 +1,30 @@
+Package: cairoDevice
+Version: 2.26
+Depends: R (>= 2.12.0)
+Imports: grDevices
+License: GPL
+MD5sum: 657cf794c6fb97483d7772bd25f26bcf
+
+Package: rattle
+Version: 5.2.0
+Depends: R (>= 2.13.0)
+Imports: stats, utils, ggplot2, grDevices, graphics, magrittr, methods,
+        stringi, stringr, tidyr, dplyr, XML, rpart.plot
+Suggests: pmml (>= 1.2.13), bitops, colorspace, ada, amap, arules,
+        arulesViz, biclust, cairoDevice, cba, cluster, corrplot, descr,
+        doBy, e1071, ellipse, fBasics, foreign, fpc, gdata, ggdendro,
+        ggraptR, gplots, grid, gridExtra, gtools, gWidgetsRGtk2,
+        hmeasure, Hmisc, kernlab, Matrix, mice, nnet, party, playwith,
+        plyr, psych, randomForest, rattle.data, RColorBrewer, readxl,
+        reshape, rggobi, RGtk2, ROCR, RODBC, rpart, scales, SnowballC,
+        survival, timeDate, tm, verification, wskm, RGtk2Extras,
+        xgboost
+License: GPL (>= 2)
+MD5sum: 953a4ac1ffee86bfb220d8d11cf876eb
+
+Package: RGtk2
+Version: 2.20.36
+Depends: R (>= 3.4.0)
+Imports: methods
+License: GPL
+MD5sum: e883a7d56d7d7048e5816d7a620d844b
