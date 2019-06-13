@@ -10,11 +10,10 @@ R
 
 Type on > R prompt:
 ```r
-install.packages('RGtk2', repos = "https://github.com/gies-rbt/repo-r/")
-install.packages('cairoDevice', repos = "https://github.com/gies-rbt/repo-r/")
+install.packages('RGtk2', repos = "https://gies-rbt.github.io/repo-r/")
+install.packages('cairoDevice', repos = "https://gies-rbt.github.io/repo-r/")
 install.packages(c("ggplot2", "magrittr", "stringi", "stringr", "tidyr", "dplyr", "XML", "rpart.plot"), repos = "https://cran.rstudio.com")
-install.packages('rattle', repos = "https://github.com/gies-rbt/repo-r/")
-library("rattle")
+install.packages('rattle', repos = "https://gies-rbt.github.io/repo-r/
 rattle()
 ```
 
@@ -29,7 +28,6 @@ R
 
 Type on > R prompt:
 ```r
-install.packages('rggobi', repos = "https://github.com/gies-rbt/repo-r/")
+install.packages('rggobi', repos = "https://gies-rbt.github.io/repo-r/")
 library("rggobi")
-rattle()
 ```
