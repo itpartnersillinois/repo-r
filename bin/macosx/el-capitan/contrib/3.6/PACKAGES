@@ -28,3 +28,13 @@ Depends: R (>= 3.4.0)
 Imports: methods
 License: GPL
 MD5sum: e883a7d56d7d7048e5816d7a620d844b
+
+Package: rggobi
+Version: 2.1.22
+Depends: R (>= 2.5.1)
+Suggests: reshape, nlme
+Imports: RGtk2, utils
+License: BSD_3_clause + file LICENSE
+MD5sum: 6e765e00845ea30f8316d90ffb42d22b
+
+
