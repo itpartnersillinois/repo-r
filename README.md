@@ -1,4 +1,4 @@
-# repo-r
+# rattle repo-r
 
 Open Terminal, type on $ prompt:
 ```bash
@@ -18,3 +18,18 @@ library("rattle")
 rattle()
 ```
 
+# rggobi repo-r
+
+Open Terminal, type on $ prompt:
+```bash
+curl -SL https://gies-rbt.github.io/repo-r/ggobi-2.1.11.tar.gz | tar xzf - -C /usr/local/Cellar 
+brew link ggobi
+R
+```
+
+Type on > R prompt:
+```r
+install.packages('rggobi', repos = "https://github.com/gies-rbt/repo-r/")
+library("rggobi")
+rattle()
+```
