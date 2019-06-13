@@ -28,3 +28,11 @@ Depends: R (>= 3.4.0)
 Imports: methods
 License: GPL
 NeedsCompilation: no
+
+Package: rggobi
+Version: 2.1.22
+Depends: R (>= 2.5.1)
+Suggests: reshape, nlme
+Imports: RGtk2, utils
+NeedsCompilation: no
+
