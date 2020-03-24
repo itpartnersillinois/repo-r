@@ -5,23 +5,6 @@ Imports: grDevices
 License: GPL
 NeedsCompilation: no
 
-Package: rattle
-Version: 5.2.0
-Depends: R (>= 2.13.0)
-Imports: stats, utils, ggplot2, grDevices, graphics, magrittr, methods,
-        stringi, stringr, tidyr, dplyr, XML, rpart.plot
-Suggests: pmml (>= 1.2.13), bitops, colorspace, ada, amap, arules,
-        arulesViz, biclust, cairoDevice, cba, cluster, corrplot, descr,
-        doBy, e1071, ellipse, fBasics, foreign, fpc, gdata, ggdendro,
-        ggraptR, gplots, grid, gridExtra, gtools, gWidgetsRGtk2,
-        hmeasure, Hmisc, kernlab, Matrix, mice, nnet, party, playwith,
-        plyr, psych, randomForest, rattle.data, RColorBrewer, readxl,
-        reshape, rggobi, RGtk2, ROCR, RODBC, rpart, scales, SnowballC,
-        survival, timeDate, tm, verification, wskm, RGtk2Extras,
-        xgboost
-License: GPL (>= 2)
-NeedsCompilation: no
-
 Package: rggobi
 Version: 2.1.22
 Depends: R (>= 2.5.1)
