@@ -22,13 +22,6 @@ Suggests: pmml (>= 1.2.13), bitops, colorspace, ada, amap, arules,
 License: GPL (>= 2)
 NeedsCompilation: no
 
-Package: RGtk2
-Version: 2.20.36
-Depends: R (>= 3.4.0)
-Imports: methods
-License: GPL
-NeedsCompilation: no
-
 Package: rggobi
 Version: 2.1.22
 Depends: R (>= 2.5.1)
