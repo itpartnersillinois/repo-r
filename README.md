@@ -2,7 +2,9 @@
 
 Open Terminal, type on $ prompt:
 ```bash
+/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install.sh)"
 /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
+curl -O 
 brew cask install r
 brew cask upgrade
 brew install gtk+
