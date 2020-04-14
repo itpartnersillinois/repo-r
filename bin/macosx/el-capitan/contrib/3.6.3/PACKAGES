@@ -4,7 +4,13 @@ Depends: R (>= 2.12.0)
 Imports: grDevices
 License: GPL
 MD5sum: c33d62c9f7e19de2110e5c8cb730e5b3
-NeedsCompilation: no
+
+Package: JGR
+Version: 1.9-1
+Depends: R (>= 3.0.0), rJava (>= 0.9-12), JavaGD (>= 0.6)
+Suggests: XLConnect
+License: GPL-2
+MD5sum: 81f5b653010bf512fbac1a1a6a216c1d
 
 Package: rattle
 Version: 5.3.5
@@ -21,7 +27,6 @@ Suggests: pmml (>= 1.2.13), bitops, colorspace, ada, amap, arules,
         survival, timeDate, tm, verification, wskm, xgboost
 License: GPL (>= 2)
 MD5sum: 7619eaf229c62aaa2c75cc46507cb1ea
-NeedsCompilation: no
 
 Package: RGtk2
 Version: 2.20.36
@@ -29,4 +34,10 @@ Depends: R (>= 3.4.0)
 Imports: methods
 License: GPL
 MD5sum: fc19d98085c7fe4795671fc640cf40e2
-NeedsCompilation: no
+
+Package: rJava
+Version: 0.9-12
+Depends: R (>= 2.5.0), methods
+License: GPL-2
+Archs: rJava.so.dSYM
+MD5sum: 3f7fcc6df8078de8b24a40b996467b75
