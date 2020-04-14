@@ -33,8 +33,7 @@ Suggests: pmml (>= 1.2.13), bitops, colorspace, ada, amap, arules,
         psych, randomForest, rattle.data, RColorBrewer, readxl,
         reshape, rggobi, RGtk2, ROCR, RODBC, rpart, scales, SnowballC,
         survival, timeDate, tm, verification, wskm, xgboost
-License: GPL (>= 2)
-MD5sum: 7619eaf229c62aaa2c75cc46507cb1ea
+Built: R 3.6.0; ; 2019-12-17 23:28:17 UTC; unix
 
 Package: RGtk2
 Version: 2.20.36
@@ -49,3 +48,5 @@ Depends: R (>= 2.5.0), methods
 License: GPL-2
 Archs: rJava.so.dSYM
 MD5sum: 3f7fcc6df8078de8b24a40b996467b75
+
+
