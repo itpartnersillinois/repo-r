@@ -5,6 +5,14 @@ Imports: grDevices
 License: GPL
 MD5sum: c33d62c9f7e19de2110e5c8cb730e5b3
 
+Package: JavaGD
+Version: 0.6-1.1
+Depends: R (>= 2.4.0)
+Suggests: rJava (>= 0.5-0)
+License: GPL-2 | GPL-3
+Archs: JavaGD.so.dSYM
+MD5sum: a772e8b2f6c668a4b5c9efa603a6eae7
+
 Package: JGR
 Version: 1.9-1
 Depends: R (>= 3.0.0), rJava (>= 0.9-12), JavaGD (>= 0.6)
