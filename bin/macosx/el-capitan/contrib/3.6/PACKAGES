@@ -6,12 +6,11 @@ License: GPL
 MD5sum: c33d62c9f7e19de2110e5c8cb730e5b3
 
 Package: JavaGD
-Version: 0.6-1.1
+Version: 0.6-2
 Depends: R (>= 2.4.0)
 Suggests: rJava (>= 0.5-0)
 License: GPL-2 | GPL-3
-Archs: JavaGD.so.dSYM
-MD5sum: a772e8b2f6c668a4b5c9efa603a6eae7
+MD5sum: 35d328b860dabc5ad4f9e076e5cbec31
 
 Package: JGR
 Version: 1.9-1
@@ -21,7 +20,7 @@ License: GPL-2
 MD5sum: 81f5b653010bf512fbac1a1a6a216c1d
 
 Package: rattle
-Version: 5.3.5
+Version: 5.3.6
 Depends: R (>= 3.5.0), tibble, bitops
 Imports: stats, utils, ggplot2, grDevices, graphics, magrittr, methods,
         stringi, stringr, tidyr, dplyr, XML, rpart.plot
@@ -33,7 +32,8 @@ Suggests: pmml (>= 1.2.13), bitops, colorspace, ada, amap, arules,
         psych, randomForest, rattle.data, RColorBrewer, readxl,
         reshape, rggobi, RGtk2, ROCR, RODBC, rpart, scales, SnowballC,
         survival, timeDate, tm, verification, wskm, xgboost
-Built: R 3.6.0; ; 2019-12-17 23:28:17 UTC; unix
+License: GPL (>= 2)
+MD5sum: 4eb728610a366e2e796a0cc1963b1e91
 
 Package: RGtk2
 Version: 2.20.36
@@ -48,5 +48,3 @@ Depends: R (>= 2.5.0), methods
 License: GPL-2
 Archs: rJava.so.dSYM
 MD5sum: 3f7fcc6df8078de8b24a40b996467b75
-
-
