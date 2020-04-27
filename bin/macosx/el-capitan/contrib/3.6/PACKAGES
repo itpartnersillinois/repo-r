@@ -35,6 +35,14 @@ Suggests: pmml (>= 1.2.13), bitops, colorspace, ada, amap, arules,
 License: GPL (>= 2)
 MD5sum: 4eb728610a366e2e796a0cc1963b1e91
 
+Package: rggobi
+Version: 2.1.22
+Depends: R (>= 2.5.1)
+Imports: RGtk2, utils
+Suggests: reshape, nlme
+License: BSD_3_clause + file LICENSE
+MD5sum: 6e765e00845ea30f8316d90ffb42d22b
+
 Package: RGtk2
 Version: 2.20.36
 Depends: R (>= 3.4.0)
