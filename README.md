@@ -36,3 +36,9 @@ Type on > R prompt:
 install.packages('rggobi', repos = "https://giesrbt.github.io/repo-r/")
 library("rggobi")
 ```
+
+[//]: # (tools::write_PACKAGES(".", type="mac.binary")
+
+
+
+
