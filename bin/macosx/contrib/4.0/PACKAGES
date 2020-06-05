@@ -1,0 +1,58 @@
+Package: cairoDevice
+Version: 2.28
+Depends: R (>= 2.12.0)
+Imports: grDevices
+License: GPL
+MD5sum: fc7bd57dc11d6dfab3a841e4b3817652
+
+Package: JavaGD
+Version: 0.6-2
+Depends: R (>= 2.4.0)
+Suggests: rJava (>= 0.5-0)
+License: GPL-2 | GPL-3
+MD5sum: 35d328b860dabc5ad4f9e076e5cbec31
+
+Package: JGR
+Version: 1.9-1
+Depends: R (>= 3.0.0), rJava (>= 0.9-12), JavaGD (>= 0.6)
+Suggests: XLConnect
+License: GPL-2
+MD5sum: 81f5b653010bf512fbac1a1a6a216c1d
+
+Package: rattle
+Version: 5.4.0
+Depends: R (>= 3.5.0), tibble, bitops
+Imports: stats, utils, ggplot2, grDevices, graphics, magrittr, methods,
+        stringi, stringr, tidyr, dplyr, XML, rpart.plot
+Suggests: pmml (>= 1.2.13), colorspace, ada, amap, arules, arulesViz,
+        biclust, cairoDevice, cba, cluster, corrplot, descr, doBy,
+        e1071, ellipse, fBasics, foreign, fpc, gdata, ggdendro,
+        ggraptR, gplots, grid, gridExtra, gtools, hmeasure, Hmisc,
+        kernlab, Matrix, mice, nnet, party, plyr, psych, randomForest,
+        RColorBrewer, readxl, reshape, rggobi, RGtk2, ROCR, RODBC,
+        rpart, scales, SnowballC, survival, timeDate, tm, verification,
+        wskm, xgboost
+License: GPL (>= 2)
+MD5sum: 5c7a0aba8867712bc8799cbf06cfcc07
+
+Package: rggobi
+Version: 2.1.22
+Depends: R (>= 2.5.1)
+Imports: RGtk2, utils
+Suggests: reshape, nlme
+License: BSD_3_clause + file LICENSE
+MD5sum: d5797843f3cfd468f039ea549a9778fe
+
+Package: RGtk2
+Version: 2.20.36
+Depends: R (>= 3.4.0)
+Imports: methods
+License: GPL
+MD5sum: ac108cfdc1520a438b5ac2e266de354e
+
+Package: rJava
+Version: 0.9-12
+Depends: R (>= 2.5.0), methods
+License: GPL-2
+Archs: rJava.so.dSYM
+MD5sum: 3f7fcc6df8078de8b24a40b996467b75

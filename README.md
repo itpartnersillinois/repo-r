@@ -1,6 +1,6 @@
-# rattle repo-r
+## brew and R
 
-Open Terminal, type on $ prompt:
+Open Terminal, type on prompt:
 ```bash
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install.sh)"
 /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
@@ -13,32 +13,52 @@ brew install gtk+
 R
 ```
 
+## rattle
 Type on > R prompt:
 ```r
-install.packages('RGtk2', repos = "https://giesrbt.github.io/repo-r/")
-install.packages('cairoDevice', repos = "https://giesrbt.github.io/repo-r/")
-install.packages(c("ggplot2", "magrittr", "stringi", "stringr", "tidyr", "dplyr", "XML", "rpart.plot"), repos = "https://cran.rstudio.com")
-install.packages('rattle', repos = "https://giesrbt.github.io/repo-r/")
+install.packages(c("RGtk2", "cairoDevice"), repos = "https://itpartnersillinois.github.io/repo-r")
+install.packages('rattle')
+library('rattle')
 rattle()
 ```
 
-# rggobi repo-r
+## rggobi
 
 Open Terminal, type on $ prompt:
 ```bash
-curl -SL https://giesrbt.github.io/repo-r/ggobi-2.1.11.tar.gz | tar xzf - -C /usr/local/Cellar 
+curl -SL https://itpartnersillinois.github.io/repo-r/ggobi-2.1.12.tar.gz | tar xzf - -C /usr/local/Cellar 
 brew link ggobi
 R
 ```
 
 Type on > R prompt:
 ```r
-install.packages('rggobi', repos = "https://giesrbt.github.io/repo-r/")
+install.packages('rggobi', repos = "https://itpartnersillinois.github.io/repo-r")
 library("rggobi")
 ```
 
-[//]: # (tools::write_PACKAGES(".", type="mac.binary")
+## Java
+Open Terminal, type on prompt:
+```bash
+brew cask install adoptopenjdk8
+export JAVA_HOME=/Library/Java/JavaVirtualMachines/adoptopenjdk-8.jdk/Contents/Home 
+R
+```
+Type on > R prompt:
+```r
+install.packages('rJava')
+install.packages('JavaGD')
+install.packages('JGR')
+install.packages('Deducer')
+library('JGR')
+JGR()
+# on JGR window:
+library('Deducer')
+```
 
+[//]: # tools::write_PACKAGES(".", type="mac.binary")
 
+[//]: # install.packages(c("bitops", "ggplot2", "tidyr", "dplyr", "rpart.plot", "tibble", "bitops", "magrittr", "stringi", "XML", "stringr", "Hmisc"), repos="https://cloud.r-project.org/", type="binary")
 
+[//]: # install.packages(c("tidyselect", "doBy", "ellipse", "mlbench", "fBasics", "corrplot", "amap", "ggdendro", "fpc", "randomForest", "DAAG", "arules"), repos="https://cloud.r-project.org/", type="binary")
 
