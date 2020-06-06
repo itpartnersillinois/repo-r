@@ -3,10 +3,9 @@
 Open Terminal, type on prompt:
 ```bash
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install.sh)"
-/usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
-curl -o /usr/local/Homebrew/Library/Taps/homebrew/homebrew-cask/Casks/r.rb https://giesrbt.github.io/repo-r/bin/macosx/el-capitan/contrib/r.rb
+
 brew cask install r
-brew cask upgrade
+
 sudo chown -R $(whoami) /usr/local/share/info /usr/local/share/man/man3 /usr/local/share/man/man5
 chmod u+w /usr/local/share/info /usr/local/share/man/man3 /usr/local/share/man/man5
 brew install gtk+
