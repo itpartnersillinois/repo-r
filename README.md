@@ -5,7 +5,7 @@ Open Terminal, type on prompt:
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install.sh)"
 
 # installing R 3.6.3
-brew cask install https://raw.githubusercontent.com/Homebrew/homebrew-cask/6d3bdc6f7c256d1ea2182204c83eda56fb6f4fb0/Casks/r.rb
+brew cask reinstall https://raw.githubusercontent.com/Homebrew/homebrew-cask/6d3bdc6f7c256d1ea2182204c83eda56fb6f4fb0/Casks/r.rb
 
 # installing latest version of R
 # brew cask install r 
