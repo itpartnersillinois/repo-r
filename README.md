@@ -19,7 +19,7 @@ R
 ## rattle
 Type on > R prompt:
 ```r
-install.packages(c("RGtk2", "cairoDevice"), repos = "https://giesrbt.github.io/repo-r")
+install.packages(c("RGtk2", "cairoDevice"), repos = "https://itpartnersillinois.github.io/repo-r")
 install.packages('rattle')
 library('rattle')
 rattle()
