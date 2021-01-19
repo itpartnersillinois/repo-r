@@ -25,14 +25,14 @@ rattle()
 
 Open Terminal, type on $ prompt:
 ```bash
-curl -SL https://giesrbt.github.io/repo-r/ggobi-2.1.12.tar.gz | tar xzf - -C /usr/local/Cellar 
+curl -SL https://itpartnersillinois.github.io/repo-r/ggobi-2.1.12.tar.gz | tar xzf - -C /usr/local/Cellar 
 brew link ggobi
 R
 ```
 
 Type on > R prompt:
 ```r
-install.packages('rggobi', repos = "https://giesrbt.github.io/repo-r")
+install.packages('rggobi', repos = "https://itpartnersillinois.github.io/repo-r")
 library("rggobi")
 ```
 
